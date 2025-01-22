@@ -13,7 +13,7 @@ Fraud detection is critical in financial systems to mitigate potential losses an
 - **Data Preprocessing**:
   - Handled imbalanced target variable using SMOTE (Synthetic Minority Oversampling Technique).
 - **Evaluation Metrics**:
-  - Recall Score (primary focus)
+  - Recall Score
   - Precision
   - F1 Score
   - Accuracy
@@ -21,21 +21,24 @@ Fraud detection is critical in financial systems to mitigate potential losses an
   - The Random Forest model has been deployed.
 
 ## Dataset
-The dataset used for this project consists of transaction records with multiple features indicative of fraudulent activities.
-
+The dataset used for this project consists of transaction records credit card used in The US with multiple features indicative of fraudulent activities.
+Dataset Link= www.kaggle.com/datasets/priyamchoksi/credit-card-transactions-dataset
 
 ## Results
-- The Decision Tree model outperformed Logistic Regression and Random Forest in terms of recall score.
-- Random Forest performed well in terms of overall model accuracy.
-- SMOTE was used to balance the target variable, improving model performance.
-- Detailed evaluation metrics and visualizations are provided in the notebook.
+The Random Forest model outperformed Logistic Regression and Decision Tree in terms of overall model accuracy.
 
+Random Forest performed well in terms of overall model accuracy.
+Random Forest Evaluation Scores:
+Precision: 1.00 (Class 0), 0.32 (Class 1)
+Recall: 0.99 (Class 0), 0.90 (Class 1)
+F1-Score: 0.99 (Class 0), 0.47 (Class 1)
+SMOTE was used to balance the target variable, improving model performance.
 
 ## Contact
 For any inquiries or feedback, please contact:
 - **Name**: Aniket Tiwari
 - **Email**: tiwarianiket921@gmail.com
-- **LinkedIn**: in/aniket-tiwari30
+- **LinkedIn**: www.linkedin.com/in/aniket-tiwari30
 
 ---
 Thank you for checking out the Fraud Detection Model! 🚀
