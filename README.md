@@ -33,9 +33,16 @@ Random Forest performed well in terms of overall model accuracy.
 
 
 Random Forest Evaluation Scores:
+
+
 Precision: 1.00 (Class 0), 0.32 (Class 1)
+
+
 Recall: 0.99 (Class 0), 0.90 (Class 1)
+
 F1-Score: 0.99 (Class 0), 0.47 (Class 1)
+
+
 SMOTE was used to balance the target variable, improving model performance.
 
 ## Contact
