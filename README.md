@@ -35,7 +35,7 @@ The dataset used for this project consists of transaction records with multiple 
 For any inquiries or feedback, please contact:
 - **Name**: Aniket Tiwari
 - **Email**: tiwarianiket921@gmail.com
-- **LinkedIn**: aniket-tiwari30
+- **LinkedIn**: in/aniket-tiwari30
 
 ---
 Thank you for checking out the Fraud Detection Model! 🚀
