@@ -5,9 +5,9 @@ import numpy as np
 app = Flask(__name__)
 
 # Load the saved model and scaler
-model = pickle.load(open(r"C:\Users\tiwar\Desktop\ml_deploy\FinalRFModel.pkl", 'rb'))
-scaler = pickle.load(open(r"C:\Users\tiwar\Desktop\ml_deploy\scaler.pkl", 'rb'))
-encoders = pickle.load(open(r"C:\Users\tiwar\Desktop\ml_deploy\encoder.pkl", 'rb'))
+model = pickle.load(open("FinalRFModel.pkl", 'rb'))
+scaler = pickle.load(open("scaler.pkl", 'rb'))
+encoders = pickle.load(open("encoder.pkl", 'rb'))
 
 @app.route('/')
 def home():
