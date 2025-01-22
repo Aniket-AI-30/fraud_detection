@@ -22,12 +22,16 @@ Fraud detection is critical in financial systems to mitigate potential losses an
 
 ## Dataset
 The dataset used for this project consists of transaction records credit card used in The US with multiple features indicative of fraudulent activities.
+
+
 Dataset Link= www.kaggle.com/datasets/priyamchoksi/credit-card-transactions-dataset
 
 ## Results
 The Random Forest model outperformed Logistic Regression and Decision Tree in terms of overall model accuracy.
 
 Random Forest performed well in terms of overall model accuracy.
+
+
 Random Forest Evaluation Scores:
 Precision: 1.00 (Class 0), 0.32 (Class 1)
 Recall: 0.99 (Class 0), 0.90 (Class 1)
