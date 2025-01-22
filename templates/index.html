@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Machine Learning Model Deployment</title>
+    <h1>Customer Cost Prediction</h1>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            padding: 20px;
+        }
+        .container {
+            max-width: 600px;
+            margin: auto;
+        }
+        form {
+            display: flex;
+            flex-direction: column;
+        }
+        label, input, select {
+            margin-bottom: 10px;
+        }
+        button {
+            padding: 10px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #45a049;
+        }
+        .result {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <form action="/predict" method="post">
+        <div>
+            <label for="category">Category:</label>
+            <input type="text" id="category" name="category" required>
+        </div>
+        <div>
+            <label for="amt">Amount:</label>
+            <input type="number" id="amt" name="amt" required>
+        </div>
+        <div>
+            <label for="gender">Gender:</label>
+            <select id="gender" name="gender" required>
+                <option value="">Select Gender</option>
+                <option value="M">M</option>
+                <option value="F">F</option>
+            </select>
+        </div>
+        <div>
+            <label for="state">State:</label>
+            <input type="text" id="state" name="state" required>
+        </div>
+        <div>
+            <label for="zip">ZIP Code:</label>
+            <input type="text" id="zip" name="zip" required>
+        </div>
+        <div>
+            <label for="City_pop">City Population:</label>
+            <input type="number" id="City_pop" name="City_pop" required>
+        </div>
+        <div>
+            <label for="day_name">Day of the Week:</label>
+            <input type="text" id="day_name" name="day_name" required>
+        </div>
+        <div>
+            <label for="Hour">Hour:</label>
+            <input type="number" id="Hour" name="Hour" min="0" max="23" required>
+        </div>
+        <div>
+            <label for="distance_from_home">Distance from Home (km):</label>
+            <input type="number" id="distance_from_home" name="distance_from_home" required>
+        </div>
+        <div>
+            <label for="age">Age:</label>
+            <input type="number" id="age" name="age" min="0" required>
+        </div>
+        <input type="submit" value="Predict">
+    </form>
+    <h2>
+        {{ prediction_text }}
+    </h2>
+</body>
+</html>
