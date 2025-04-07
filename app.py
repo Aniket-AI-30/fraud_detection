@@ -5,7 +5,7 @@ import numpy as np
 app = Flask(__name__)
 
 # Load the saved model and scaler
-model = pickle.load(open("FinalLogModel.pkl", 'rb'))
+model = pickle.load(open("FinalRFModel.pkl", 'rb'))
 scaler = pickle.load(open("scaler.pkl", 'rb'))
 
 @app.route('/')
