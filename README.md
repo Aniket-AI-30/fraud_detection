@@ -1,6 +1,6 @@
 # Fraud Detection Model
 
-This repository contains a machine learning project focused on fraud detection in transactional datasets. The model is built using Logistic Regression, Decision Tree, and Random Forest, and the Random Forest model was selected for deployment based on its overall accuracy.
+This repository contains a machine learning project focused on fraud detection in Credit Card transactional datasets.
 
 ## Project Overview
 Fraud detection is critical in financial systems to mitigate potential losses and improve security. This project aims to predict fraudulent transactions accurately by building and evaluating different machine learning models.
@@ -17,7 +17,7 @@ Fraud detection is critical in financial systems to mitigate potential losses an
   - Precision
   - F1 Score
 - **Deployment**:
-  - The Random Forest model has been deployed.
+  - The Model was deployed using Railway.app.
 
 ## Dataset
 The dataset used for this project consists of transaction records credit card used in The US with multiple features indicative of fraudulent activities.
@@ -26,15 +26,20 @@ The dataset used for this project consists of transaction records credit card us
 Dataset Link= www.kaggle.com/datasets/priyamchoksi/credit-card-transactions-dataset
 
 ## 🚀 Live App
+
+
 🎯 Try out the deployed web app here:  
 🔗 [Fraud Detection Web App](https://frauddetection-production-5e03.up.railway.app)
+
+
+## 📂 Presentation
 
 
 📂 [Download the Project PPT](./Fraud_Detection_Presentation.pptx)
 
 
 ---
-Thank you for checking out the Fraud Detection Model! 🚀
+Thank you for checking out my ML Project! 🚀
 
 
 
