@@ -9,14 +9,13 @@ Fraud detection is critical in financial systems to mitigate potential losses an
 - **Machine Learning Models Used**:
   - Logistic Regression
   - Decision Tree 
-  - Random Forest (Selected for overall model accuracy) (Deployed Model)
+  - Random Forest (Selected for overall model performance) (Deployed Model)
 - **Data Preprocessing**:
   - Handled imbalanced target variable using SMOTE (Synthetic Minority Oversampling Technique).
 - **Evaluation Metrics**:
   - Recall Score
   - Precision
   - F1 Score
-  - Accuracy
 - **Deployment**:
   - The Random Forest model has been deployed.
 
@@ -26,30 +25,13 @@ The dataset used for this project consists of transaction records credit card us
 
 Dataset Link= www.kaggle.com/datasets/priyamchoksi/credit-card-transactions-dataset
 
-## Results
-The Random Forest model outperformed Logistic Regression and Decision Tree in terms of overall model accuracy.
-
-Random Forest performed well in terms of overall model accuracy.
-
-
-Random Forest Evaluation Scores:
+## 🚀 Live App
+🎯 Try out the deployed web app here:  
+🔗 [Fraud Detection Web App](https://frauddetection-production-5e03.up.railway.app)
 
 
-Precision: 1.00 (Class 0), 0.32 (Class 1)
+📂 [Download the Project PPT](./Fraud_Detection_Presentation.pptx)
 
-
-Recall: 0.99 (Class 0), 0.90 (Class 1)
-
-F1-Score: 0.99 (Class 0), 0.47 (Class 1)
-
-
-SMOTE was used to balance the target variable, improving model performance.
-
-## Contact
-For any inquiries or feedback, please contact:
-- **Name**: Aniket Tiwari
-- **Email**: tiwarianiket921@gmail.com
-- **LinkedIn**: www.linkedin.com/in/aniket-tiwari30
 
 ---
 Thank you for checking out the Fraud Detection Model! 🚀
